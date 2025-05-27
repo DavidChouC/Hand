@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "can.h": "c",
+        "bsp_encoder.h": "c",
+        "main.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "elog.h": "c",
+        "string.h": "c",
+        "stdint.h": "c",
+        "bsp_can.h": "c",
+        "timer.h": "c",
+        "tim.h": "c",
+        "pid.h": "c",
+        "bsp_motor.h": "c"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Cortex Debug",
+        "cwd": "${workspaceFolder}",
+        "executable": "./build/${workspaceFolderBasename}.elf",
+        "request": "launch",
+        "type": "cortex-debug",
+        "showDevDebugOutput": "none",
+        "runToEntryPoint": "main",
+        "servertype": "openocd",
+        "configFiles": [
+          "download.cfg"
+        ],
+        "rttConfig": {
+            "enabled": true,
+            "address": "auto",
+            "decoders": [
+                {
+                    "label": "Rtt0",
+                    "port": 0,
+                    "type": "console"
+                }
+            ]
+        }
+      }
+    ]
+  }
